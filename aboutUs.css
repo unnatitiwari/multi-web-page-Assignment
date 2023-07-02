@@ -1,0 +1,97 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  margin-left: 30px;
+  height: 100vh;
+  background-color: #f0f4f5;
+  font-family: "IBM Plex Sans", sans-serif;
+  overflow: hidden;
+}
+.logo {
+  height: 70px;
+}
+.heading {
+  height: 15vh;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list {
+  margin-top: 20px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 50px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 900;
+}
+nav ul li :hover{
+  cursor: pointer;
+  color: #20bc7e;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.firstpart {
+  width: 50%;
+  text-align: center;
+}
+
+.firstpart h1 {
+  color: #20bc7e;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.firstpart p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.secondpart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.box:hover{
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+  transform: scale(1.5);
+}
+.box {
+  padding: 10px 30px 10px 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  border: none;
+}
+
+.box h2 {
+  color: #20bc7e;
+  font-size: 20px;
+  text-align: center;
+}
+.box p {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
